@@ -1,0 +1,13 @@
+body{
+background-color:pink;
+font-family:sans-serif;
+width:600px;
+margin:auto;
+}
+label{
+display:list-item;
+}
+form li{
+  list-style: none;
+  padding-bottom: 10px
+}
