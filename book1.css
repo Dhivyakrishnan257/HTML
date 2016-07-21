@@ -54,6 +54,22 @@ padding-right:15px;
   margin-top: 40px;
 
 }
+.image
+{
+  position:relative;
+}
+h2 {
+   position: absolute;
+   top: 200px;
+   width: 100%;
+}
+.image h2 {
+  color: #FCF1F4;
+  letter-spacing:5px;
+  font-style: oblique;
+  font-weight: lighter;
+
+}
 .hero
 {
   color:white;
