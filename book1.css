@@ -1,6 +1,7 @@
 body{
   font-family:Lato,sans-serif;
-/*  background-image:url(Books.jpg);
+  background-color:#6EA3AB   ;
+  /*background-image:url(book.jpg);
   background-repeat: no-repeat;*/
 }
 .container_12
@@ -30,13 +31,18 @@ position:fixed;
 margin-top:-1px;
 height:80px;
 border-radius:10px;
-
+z-index: 9999;
 }
 ul a{
 text-decoration:none;
 color:white;
 font-size:18px;
 padding-right:20px;
+}
+ul a:hover{
+  color:#15B3CB;
+  font-size:25px;
+
 }
 .heading{
 text-shadow:10px 15px 15px black;
@@ -58,17 +64,18 @@ padding-right:15px;
 {
   position:relative;
 }
+
 h2 {
    position: absolute;
-   top: 200px;
+   top: 80px;
    width: 100%;
+
 }
 .image h2 {
-  color: #FCF1F4;
-  letter-spacing:5px;
-  font-style: oblique;
+  color:#02010A      ;
+  letter-spacing:4px;
   font-weight: lighter;
-
+  text-align:center;
 }
 .hero
 {
@@ -103,7 +110,7 @@ blockquote{
 }
 .last
 {
-  background-color:#BB98A0;
+  background-color:#1ABC9C;
   margin-bottom:-0.5px;
   margin-left:0;
   margin-top:20px;
