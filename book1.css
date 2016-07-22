@@ -28,6 +28,7 @@ display:inline;
 header{
 background-color:#606261;
 position:fixed;
+
 margin-top:-1px;
 height:80px;
 border-radius:10px;
@@ -39,7 +40,7 @@ color:white;
 font-size:18px;
 padding-right:20px;
 }
-ul a:hover{
+header ul a:hover{
   color:#15B3CB;
   font-size:25px;
 }
@@ -101,11 +102,14 @@ h2 a:hover{
 .reason h1
 {
   color: white;
-  font-family: cursive;
+  font-family:fantasy;
+  letter-spacing:1.5px;
+  font-weight: lighter;
   font-style: italic;
   font-size:30px;
   line-height: 20px;
 }
+
 /*
 .full
 {
@@ -120,9 +124,12 @@ p{
   letter-height:10px;
 }*/
 #book{
-  color:black;
+  font-family:fantasy;
+  color:white;
   font-size:20px;
   line-height:10px;
+  font-weight: normal;
+  letter-spacing:1.5px;
 }
 
 }
@@ -133,11 +140,20 @@ blockquote{
 }
 
 h3{
-
+  font-size:15px;
   font-style: italic;
   font-family:monospace;
   color:white;
 }
 footer{
   background-color:#606261;
+  height:100px;
+  margin-top:10px;
+}
+footer ul a{
+text-decoration:none;
+color:blue;
+font-size:15px;
+font-weight: lighter;
+padding-right:10px;
 }
